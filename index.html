@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jasmine Kwok's Capstone</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+     <div class="topimage">
+       <img src="img/header.png"> 
+
+     </div>
+
+    <div class="menu">
+            <li class="wide"><a href="#section1">Introduction</a></li>
+            <li class="wide"><a href="#section2">Serendipitous Encounters</a></li>
+            <li class="wide"><a href="#section3">Designing for Personal Interaction</a></li>
+            <li class="wide"><a href="#section4">Invisible Layers of a Space</a></li>
+            <li class="wide"><a href="#section5">Mixing Realities</a></li>
+            <li class="wide"><a href="#section6">Reimagining the Archive</a></li>
+    </div>
+
+    <div class="entireintro">
+
+
+      <div class="princessbackground">
+        <img src="img/tiles.jpg">
+      </div>
+      <div class="colorrange rangeone">
+        <div class="individualcolor front">
+          <p>A glistening, turquoise-tiled theatre façade pulls people off their usual path. A subtle whir permeates the air, followed by a hint of dried flowers wafts towards them. The space feels charged with magic.</p>
+        </div>
+        <div class="individualcolor maninside">
+          <p>Pushing open a heavy metal door, they’re met with an ambiguous silhouette of a man behind a tinted window.</p>
+        </div>
+        <div class="individualcolor hallway">
+          <p>They follow the trail down a flickering hallway that feels like it stretches on forever. It opens into a spiral staircase winding up towards an invisible space. Naturally, they start to walk up.</p>
+        </div>
+        <div class="individualcolor panoramaentrance">
+          <p>At the top, the world unfurls into a 360-degree painting of Shenyang, China—a vast landscape with faux terrain depicting a day in the life in the historic city.</p>
+        </div>
+        <div class="individualcolor purpleday">
+          <p>Depending on when they enter, it may feel like nighttime, with a deep purple ambience. </p>
+        </div>
+        <div class="individualcolor blueday">
+          <p>Or, they may have just caught the sunrise, when the painted sky fades into a light blue</p>
+        </div>
+        <div class="individualcolor tuskhut">
+          <p>Descending the stairs, visitors find themselves stepping into an Arctic hut, where frost clings to the air. Inside, an animatronic man offers them hot tea to ward off the imaginary cold. In a brief, dreamlike interaction, they share a conversation with him. </p>
+        </div>
+        <div class="individualcolor saloon">
+          <p>They reemerge in the sunlight into a rustic, homely saloon. A static radio crackles to life. Here, they can toss peanut shells onto the floor, sip fresh lemonade and piece together this fever dream of a journey.</p>
+        </div>
+        <div class="individualcolor invisible">
+          <p>After their encounter, they’ll step outside into a rustic, homely saloon, where they can toss peanut shells onto the floor and sip fresh lemonade.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="section1" class="realintro">
+      <div class="content intropart">
+        <p class="welcome">Welcome to the <a class="panoramalink" href="https://www.panoramaonview.org/home/">Velaslavasay Panorama</a>, a living time capsule with performances, exhibitions and cinematic events that hover between time eras and imagined histories.</p>
+      </div>
+      <div class="contentimages panoramastrip">
+        <img src="img/panoramafilm.png">
+        <p>From Northeast China to the Arctic, there are so many places to travel to at the Velaslavasay Panorama, led by Sara Velas. (Photos taken by Jasmine Kwok)</p>
+      </div>
+      <div class="content intropart">
+        <p>Founder and director of the Velaslavasay Panorama Sara Velas explores how physical spaces extend the imagination and “re-enchant” the everyday.</p> 
+        <p>“Magic can exist everywhere if we know where to look,” she says, “When you’re in the mindset to see it, you can see it.”</p>
+        <div class="montage narrowvid">
+          <video class="velasmontage" src="media/velasmontage.mp4" autoplay muted loop playsinline> </video>
+          <div class="montagecaption">
+            <p>Spend a day that lasts a few minutes in "Shengjing Panorama." (Video taken by Jasmine Kwok)</p>
+          </div>
+        </div>
+        <div class="montage right widevid">
+          <video class="velasmontage" src="media/velasmontage.mp4" autoplay muted loop playsinline> </video>
+          <div class="montagecaption">
+            <p>Sara Velas spends a day that lasts a few minutes in "Shengjing Panorama."" (Video taken by Jasmine Kwok)</p>
+          </div>
+        </div>
+        <p>Across Los Angeles, immersive spaces—from a panorama theatre to a time-bending retail space and disco bar—share a design language in multisensory storytelling to transport visitors to seemingly impossible locations and eras. Through the interactions of sounds, smells and textures, they ground fantastical encounters in embodied experiences.</p>
+      </div>
+    </div>
+
+    <div class="bottompng">
+      <img src="img/uniontheatre.png">
+    </div>
+
+    <div id="section2" class="videoheader portal">
+      <video class="peephole" src="media/serendipity.mp4" autoplay muted loop playsinline> </video>
+    </div>
+
+    <div class="portalsection">
+      <div class="serendipityheader">
+        <div class="sidebyside windowinstallation">
+            <div class="sidephoto">
+              <img src="img/martianlandscape.jpg" alt="">
+            </div>  
+            <div class="sidecaption orangecap">
+              <div class="sidecaptiontext amidcafes">
+                <p>Amid cozy cafes and bookshops in Echo Park, a window display encases a brilliant orange terrain that vividly resists the ordinary. The scene belongs to <a href="https://timetravelmart.com/?srsltid=AfmBOopw2vp5XlXfxpOO5ICcTDa8bQI6DZdHqzsrCbcasB-XrVG0nVF6/">Time Travel Mart</a>, a storefront doubling as a speculative outpost stocked with dinosaur eggs, robot milk and Barbarian repellent.</p>
+                <div class="frontofstore">
+                 <img src="img/frontechopark.jpeg">
+                </div>
+              </div>
+              <div class="vibrantstorefront">
+                <p>A vibrant storefront teasing at the oddities packed inside. (Photos taken by Jasmine Kwok)</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="content entrysection">
+        <div class="echoparkvids">
+          <div class="logopic">
+            <img src="img/timetravelmartlogo.jpg">
+          </div>
+          <div class="dinovideo">
+            <video class="peephole" src="media/dinosaureggs.mp4" autoplay muted loop playsinline> </video>
+            <p>Oh, the things you may find at Time Travel Mart!</p>
+          </div>
+        </div>
+        <div class="backgroundtext lightblue">
+          <p>Justin Stucey, designer of <a href="https://justinstucey.wixsite.com/mysite/">“Martian Landscape,”</a> describes the exhibit as a “place that either you have been or that you are currently in.” From the sidewalk, the window teases an interior that invites perplexity and play.</p>
+          <div class="tiltedthings martianintro">
+            <div class="unionsquaretext">
+              <div class="textwithpaper martiantext">
+                <p>“To be immersed in one’s imagination, and to be immersed in one’s physicality is true,” Stucey says.</p>
+              </div>
+            </div>
+            <div class="insideimage justin">
+              <img src="img/justin.jpg">
+              <div class="justincaption">
+                <p>Justin Stucey uses photography to document his ephemeral art pieces.(Photo provided by Justin Stucey)</p>
+              </div>
+            </div>
+          </div>
+          <p>The transition from peering through glass to interacting with the products explores how movement through space can give imagined worlds weight and credibility.</p>
+          <p>The compact space is filled with portals. Fridges open to books written by students across Los Angeles. A “Wormhole Text Messaging Center” reveals the store’s deeper purpose: a front for 826LA, a nonprofit uplifting young writers.</p> 
+          <div class="wormholevideo">
+            <video class="peephole left" src="media/wormhole.mp4" autoplay muted loop playsinline> </video>
+          </div>
+          <div class="wormholecaption">
+              <p>In the back of Time Travel Mart, an entryway unfolds into a completely different world. (Video taken by Jasmine Kwok)</p>
+          </div>
+          <p>826LA’s creative engagement specialist, Wilson Swain, began volunteering for the organization in 2010—or, according to Time Travel Mart, “since the beginning of time.” He says Time Travel Mart’s biggest initiative is to get people to ask “what’s going on here?”</p> 
+          <p>“It feels like a magical space, but it’s also so real,” Swain says. “Our space feels kind of familiar, so people aren’t afraid to enter.”</p> 
+          <p>Ordinary objects are designed as relics of the past or innovations for the future. Coffee becomes “fuel for the future. Cold beverages are “Time-Freezy Hyper Slushes” providing a taste blast from the past.</p> 
+          <div class="timefreezy right">
+            <img src="img/hyperslush.jpg">
+            <div class="freezycaption">
+              <p>Time Travel Mart has its own spin to the popular convenience store slushies. Drink this to freeze time! (Photo taken by Jasmine Kwok)</p>
+            </div>
+          </div>
+          <p>“There’s a way of looking at normal objects around you and seeing it in a new way,” Swain says. “We want to make people excited to see the world that immediately exists around them.”</p> 
+          <p>Time Travel Mart suggests that portals exist everywhere—in windows, doorways and objects—but audiences have to be open to noticing them.</p>
+        </div>
+      </div>
+
+      <div class="contentimages echoparkfilm">
+        <img src="img/ttmfilmstrip.png">
+        <div class="packed">
+          <p>Time Travel Mart in Echo Park is packed with useful artifiacts from the past, present and future. (Photos taken by Jasmine Kwok)</p>
+        </div>
+      </div>
+
+      <div class="content entrysection dimmingtext">
+        <div class="backgroundtext lightsdim dimmingtext">
+          <p>Using cinematic storytelling techniques, the Velaslavasay Panorama communicates an interruption of the everyday. Like lights dimming before a movie, the panorama theatre’s narrow hallways are indicators of entering another place.</p> 
+        </div>
+        <p>“Playing with that ritual is a huge part of what we do,” Velas says.  “All these elements are working together to create this true experience. Some of the little bits are a bit below the surface, so they’re easy to ignore, but they’re so impactful."</p>
+        <div class="tiltedthings unionsquareintro">
+          <div class="insideimage">
+            <img src="img/insidefloristshop.jpg">
+            <div class="floristcaption">
+              <p>Peer inside the Union Florist Shop, where strange things are taking place (Photo from the Velaslavasay Panorama)
+            </div>
+          </div>
+          <div class="unionsquaretext dimmingtext">
+            <div class="textwithpaper">
+              <div class="inviteimage">
+                <img src="img/floristshopinvite.jpg">
+              </div>
+              <div class="unionfloristcaption">
+                <p>In 2020, the Velaslavasay Panorama sent invitations to the “Union Square Florist Shop,” an alluring storefront where passerby could peer into the daily workings of a floral service.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>Inside, a vignette came to life: ballroom music played, mysterious figures appeared through the window. A woman answered a rotary phone while watering plants; other workers arranged botanical displays.</p>
+        <div class="insidefloristshop right">
+          <div class="insidefloristshopvideo">
+            <video class="insidefloristshop right" src="media/floristvideo.mp4" controls autoplay muted playsinline> </video>
+          </div>
+          <div class="floristvideocaption right">
+            <p>Strange happenings going on inside the Union Florist Shop. It's almost as if confusion is the entire point... (Video provided by Jennifer Jameson Merchant)</p>
+          </div>
+        </div>
+        <p>“This was just something you could walk by accidentally,” Velas says. “This is a unique type of encounter because it’s tied to my day-to-day experience in a way I didn't plan for.” Intermingling everyday life with theatrics, Velas set the stage for people who just so happened to be in the right place at the right time. As more people gathered, the line between audience and participant blurred.</p> 
+        <p>“Sometimes these things have been purposefully created by humans, and sometimes they’re accidental happenings,” Velas says. “If you walk by a pile of discarded objects on a curb and look at it in a certain light, it could look like a sculpture.”</p>
+        <p>For “Martian Landscape,” Stucey repurposed debris into an otherworldly terrain by coating discarded items in vibrant orange. The result was magnetic—viewers gravitated towards a shop they never planned to visit.</p> 
+        <p>“This idea of ephemeral happenings is very much embedded in this story of an adventure to Mars,” Stucey says. The installation reframes materials of everyday life as something transportive and intergalactic.</p>
+        <div class="backgroundtext lightsdimagain">
+          <p>These immersive environments aren’t always sought-out destinations. They can appear as chance encounters, transforming routines into something entirely new or fantastical.</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="whatwillyoufind">
+        <h2>Look around! What will you come across?</h2>
+        <div class="timetravellogo">
+          <img src="img/timetravelmartlogo.png">
+          <audio class="objectsound" src="media/ttmsound.mp3"></audio>
+        </div>
+        <p>Click here to listen to a snippet of what may exist around the corner...</p>
+    </div>
+    <div class="hoveringobjects withoutlogo">
+      <div class="objects cafe">
+        <div class="actualobjectimage pills">
+          <img src="img/timetravelpills.png">
+          <div class="objectcaption">
+            <h3>Time Travel Pills</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage dinoeggs">
+          <img src="img/dinoeggs.png">
+          <div class="objectcaption">
+            <h3>Dino Eggs</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage candle">
+          <img src="img/edgarallanpoecandle.png">
+          <div class="objectcaption">
+            <h3>Edgar Allan Poe Scented Candle</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage coffee">
+          <img src="img/cosmiccoffee.png">
+          <div class="objectcaption">
+            <h3>Cosmic Coffee</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage repellent">
+          <img src="img/barbarianrepellent.png">
+          <div class="objectcaption">
+            <h3>Barbarian Repellent</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage chunks">
+          <img src="img/mammothchunks.png">
+          <div class="objectcaption">
+            <h3>Mammoth Chunks</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage milk">
+          <img src="img/robotmilk.png">
+          <div class="objectcaption">
+            <h3>Robot Milk</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage tape">
+          <img src="img/measuringtape.png">
+          <div class="objectcaption">
+            <h3>World Timeline Measuring Tape</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage hindsight">
+          <img src="img/hindsight.png">
+          <div class="objectcaption">
+            <h3>Hindsight</h3>
+          </div>
+        </div>
+      </div>
+      <div class="objects cafe">
+        <div class="actualobjectimage book">
+          <img src="img/selfdefense.png">
+          <div class="objectcaption">
+            <h3>Self Defense Book</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section3" class="videoheader personalinteraction">
+      <video class="montage" src="media/personalinteraction.mp4" autoplay muted loop playsinline> </video>
+    </div>
+
+    <div class="brassrootsintro">
+      <div class="content personalinteraction">
+        <div class="livesign">
+          <img src="img/livesign.png">
+       </div>
+        <div class="mainwriting brassrootsbody">
+          <p>Down a dark corridor in Pico Boulevard, the world of “Brassroots District L.A. ‘74,” hums with neon lights, reverberating bass and thick incense. The immersive theatre and live concert experience pulls audiences into a 1970s discotheque.</p>
+          <div class="transformationstation right">
+            <img src="img/transformationstation.jpg">
+            <div class="bodyimagecaption">
+              <p>The Transformation Station subtly primes audiences to time travel by seamlessly integrating elements from the 1970s into the everyday world. (Photo provided by Brassroots District)</p>
+            </div>
+          </div>
+          <p>Chris Porter, a writer for “Brassroots District,” discusses crafting a “transformation station” for participants to seamlessly enter another decade. In what Porter describes as a “nebulous space,” a pre-show patio party invites participants to interact with characters before the show officially begins.</p>
+          <p>These exchanges are emotional time machines, grounding audiences in the resemblance of another decade before they’re thrust into it. At Brassroots District, people can feel, navigate, and relive history. These theatrical sleights of hand empower audiences to feel a sense of agency and direct influence over the story.</p> 
+          <div class="tiltedthings porterquote">
+            <div class="unionsquaretext dimmingtext">
+              <div class="textwithpaper porterpullquote">
+                <div class="inviteimage porterpic">
+                 <img src="img/chrisporter.jpg">
+                </div>
+                <div class="invitecaption">
+                  <h3>“The big thing is eye contact—I’m talking to you,” Porter says. “People want that connection. Something about simply taking someone’s hand is so simple but powerful.”</h3>
+                  <div class="portercaption">
+                    <p>Chris Porter in front of the Brassroots District sign—the only opportunity in the experience where audience members can use their phones. (Photo provided by Chris Porter)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="soundtrack">
+        <div class="applemusicheader">
+          <img src="img/spotify.jpg">
+        </div>
+        <div class="listentobrassroots">
+          <h3>The rich sounds of Brassroots District L.A. '74!</h3>
+        </div>
+        <div class="albumcoverlist">
+          <div class="covers">
+            <div class="albumimage">
+              <img src="img/solo.jpg">
+            </div>
+            <div class="albumcaption">
+              <p>In "Aim High," co-leads Ursa Major and Copper Jones star in a dance floor bop. This release marks a new chapter for the band.</p>
+              <audio src="media/brassrootsdistrict1.mp3" controls></audio>
+            </div>
+          </div>
+          <div class="covers">
+            <div class="albumimage">
+              <img src="img/singingtogether.jpg">
+              <audio src="media/brassrootsdistrict1.mp3"></audio>
+            </div>
+            <div class="albumcaption">
+              <p>The teaser for "Brassroots District L.A. '74" prepares audiences for a one-night story experience into the inner workings of a fictional funk band.</p>
+              <audio src="media/concertexperience.mp3" controls></audio>
+            </div>
+          </div>
+          <div class="covers">
+            <div class="albumimage">
+              <img src="img/comingtogether.jpg">
+            </div>
+            <div class="albumcaption">
+              <p>"Together" reinstates the experience's themes of unity and staying true to oneself. In the live production, audience and cast members dance joyfully together.</p>
+              <audio src="media/together.mp3" controls></audio>
+            </div>
+          </div>
+          <div class="bottomsoundtrack">
+            <p>All sounds sourced from the Brassroots District YouTube playlist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="serendipitysection">
+      <div class="content playritual">
+        <div class="backgroundtext lightblue backtolight">
+          <div class="reflection left widereflection">
+            <img src="img/grandmareflection.png">
+          </div>
+          <div class="narrowreflection">
+             <img src="img/grandmareflection.png">
+          </div>
+          <p>Physical engagement isn't limited to direct human contact. Objects, environments and technologies can also evoke a tactile presence.</p>
+          <p>Daniel Pillis, an assistant professor of virtual production at Emerson and affiliate researcher at MIT, examines how immersive design can connect people to places, people and times that are gone. </p>
+          <div class="grandmother right">
+            <img src="img/grandmothershouse.jpg">
+            <p>A dining room in Pillis' installation of his grandmother's home (Photo provided by Daniel Pillis).</p>
+          </div>
+          <p>In 2013, he developed a year-long experiment of “performing” life inside an installation version of his grandmother’s home. “It was an attempt at creating her conscious experience, her memories, her identity as a physical space that others could explore through technology, objects and media that comprised her life,” he explains. Even without her ever being there, Pillis felt he was living alongside her. The installation became a form of time travel—a space to inhabit a memory.</p> 
+          <p>Unlike traditional museum exhibitions, immersive environments like Brassroots District and Pillis’ work invite exploration over passive observation. Audiences are embodying the story. “We often interface with these places through a tour,” Pillis says. “It doesn’t feel like life. You need to be able to touch things to feel like it’s real.”</p> 
+          <p>By choreographing intimate, individualized moments, like a drifting scent or a secret conversation no one else hears, these environments transport someone to a place that no longer exists: a childhood kitchen, a relative's home or another era altogether.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="novatuskhutinfo">
+      <div class="content novatuskhutbody">
+        <div class="novavideo left">
+          <video class="tuskhutman" src="media/peekingtuskhut.mp4" autoplay muted loop playsinline> </video>
+          <div class="videocaption">
+            <p>Peer into the peephole of the "Nova Tuskhut" to catch a glimpse of a man waiting in his rocking chair. (Video taken by Jasmine Kwok)</p>
+          </div>
+        </div>
+        <p>At the Velaslavasay Panorama, “The Nova Tuskhut” recreates an Arctic cabin with aged wood, hunting tools and worn books. Rather than relying on contextual plaques, the walk-in archive captures a moment suspended in time, with memories “etched within its walls.”</p>
+        <p>“It might not be 30 degrees below outside, but being in a small hut that smells of old wood and sitting on this small cot is a much more physical experience than reading in a textbook,” Velas says.</p> 
+        <p>In late 2025, “The Nova Tuskhut”  became home to “The Man in the Tuskhut.” In a 20-minute experimental immersive experience, participants share a personal conversation with a man living in solitude at the edge of the world.</p>
+        <p>“There’s an extremely special novelty of being able to interact in real time with an animatronic man,” Velas says. “Prior to this manifestation, each of these worlds had their own internal logics—and then the collision of these logics created another one.” The unique combination of the environment, animatronic and visitor generates an experience that feels unexpectedly personal and nothing short of magic.</p>
+        <div class="peanuts">
+          <div class="peanutscaption">
+            <p>After a one-on-one interaction with the man, visitors can eat peanuts in the sunny Frontier Saloon while learning more about the "Man in the Tuskhut." (Photo taken by Jasmine Kwok)</p>
+          </div>
+          <img src="img/peanuts.png">
+        </div>
+      </div>
+
+    </div>
+
+    <div id="section4" class="videoheader history">
+      <video class="montage" src="media/layers.mp4" autoplay muted loop playsinline> </video>
+    </div>
+
+    <div class="historydive">
+      <div class="content layerssection">
+        <div class="futuresign">
+          <img src="img/track.png">
+          <div class="futuresigncaption"> 
+            <p>One of the first signs visitors encounter at the Velaslavasay Panorama: a teaser into the theatre's playful experimentations with time. (Photo by Jasmine Kwok)</p>
+          </div>
+        </div>
+        <div class="mainwriting">
+          <p>Some places carry an indescribable warmth—a feeling of being somewhere new yet oddly familiar. They retain traces of human presence in frayed edges, layered textures and subtle grooves.</p>
+          <div class="timelineincluded">
+            <div class="knightlab">
+              <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vQARBppWMP6QezjHKYQgY8-UXLw-Vg-0oCKAnZJW-bfV5aYRnarRBtRl-9QqqS3YVz-896nRRbc9s6T&font=UnicaOne-Vollkorn&lang=en&initial_zoom=2&theme=contrast&width=100%25&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+              <p>Travel across history with the Velaslavasay Panorama—a space that composites past, present and future.</p>
+            </div> 
+            <div class="embodies">
+               <p>The Velaslavasay Panorama embodies this feeling, which Velas calls a product of “unrestored restoration:” the process of reimagining spaces and objects to make them appear lived-in rather than unrealistically pristine.</p>
+               <p>“When visitors experience our marquee, they may think they’re finding a building stuck in time, but it’s really a hybrid of architectural details and inventions,” she says.  The panorama theatre  is its own living character, reflective of each building it has inhabited, the people who’ve entered and the places they represent.</p>
+            </div>
+          </div>
+          <p>In 2004, the Velaslavasay Panorama moved into the Union Theatre in West Adams. After receiving funds for a marquee redesign, Velas preserved original elements while adding features from the panorama’s previous location—like the standout neon orange marquee—to give the building “a sense of Velaslavasay.”</p>
+          <p>The theatre is surrounded by invisible histories. Even as exhibitions transport visitors to distant geographies, the Velaslavasay Panorama always considers the context of Los Angeles.</p> 
+          <p>Peering through a suitcase peephole or at a glowing diorama, visitors will find homages to the early 20th century rail lines that once connected the theatre to the metro station. “Those actual systems aren’t here anymore, but they still affect the way we experience the city,” Velas says. “As much as many of the projects we do transport you, they’re also reflecting feelings about Los Angeles.”</p> 
+          <div class="panoramarow">
+            <div class="eachrowpic transitpeephole">
+              <img src="img/peephole.jpg">
+              <div class="photocaption panoramacaption">
+                <p>Inside the peephole of a suitcase, viewers will see tidbits of the city's rich railway history. (Photo taken by Jasmine Kwok)</p>
+              </div>
+            </div>
+            <div class="eachrowpic neonmarquee">
+              <img src="img/neonmarquee.jpg">
+              <div class="photocaption panoramacaption">
+                <p>A diorama pays homage to the Velaslavasay Panorama's first location in Hollywood. (Photo taken by Jasmine Kwok)</p>
+              </div>
+            </div>
+            <div class="eachrowpic whearypeepers">
+              <img src="img/whearypeepers.jpg">
+              <div class="photocaption panoramacaption">
+                <p>Inside the Velaslavasay Panorama's theatre, posters, artifacts and memorabilia collage all the experiences they've hosted.(Photo taken by Jasmine Kwok)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ursidebyside">
+        <div class="urphoto">
+          <img src="img/unrestoredrestoration.jpg">
+        </div>
+        <div class="urtext">
+          <h3>Rather than striving for strict historical precision, projects like “The Union Florist Shop” layer archival images, found histories and collective memory to project the possibilities of what a florist shop could look like. Seemingly disparate components—the flower advertisements, the neon marquee—created a distorted sense of being caught in between time.</h3>
+          <p>Photo from the Velaslavasay Panorama</p>
+        </div>
+      </div>
+
+      <div class="content layerssection">
+        <div class="mainwriting">
+          <p>Pillis’ research also questions how people remember places. “When we deeply imagine a place, am I just imagining visuals or more so the ambience?” Pillis asks. “I think it’s the feel of a certain collage of days, the temperature, the scent, the way the cloth felt, or the way the light bounced around.” Pillis suggests this sensory accumulation is what makes a memory feel real. </p>
+        </div>
+      </div>
+
+    <div class="brassrootsfilmstrip">
+      <img src="img/brassrootsfilmstrip.png">
+      <p>Snapshots of a night spent dancing in the 1970s. (Photos courtesy of Brassroots District)</p>
+    </div>
+
+    <div class="brassrootsmovingimage">
+      <div class="brdhistorybg">
+        <img src="img/gemonstairs.jpg">
+      </div>
+      <div class="historyrange rangeone">
+        <div class="historytidbit jewelbar">
+          <p>The emphasis on atmosphere and lived-in detail carries into Brassroots District.</p>
+        </div>
+        <div class="historytidbit jewelbar">
+          <p>Situated in Jewel’s Catch One— the oldest Black woman-owned disco in Los Angeles in the early 1970s—Brassroots District builds a world extending the club’s rich history.</p>
+        </div>
+        <div class="historytidbit graffiti">
+          <p>According to the <a href="https://www.laconservancy.org/learn/historic-places/jewels-catch-one/">Los Angeles Conservancy</a>, Catch One was one of few nightclubs offering a safe space for Black, Latino and LGBTQ+ communities. Story beats in the show mirror the values of the dance bar.</p>
+        </div>
+        <div class="historytidbit familystone">
+          <p>Porter credits the sounds and tactile ambience as the narrative engine. The concert’s lively soundtrack bridges a fictional plot with the backstory of Jewel’s Catch One and Sly and the Family Stone—a multiracial and multigender band whose music commentated on unity through upheaval.</p>
+        </div>
+        <div class="historytidbit magazine">
+          <p>These messages of togetherness and authenticity are integral to Brassroots District. “The theme is already written in the space itself,” Porter says.</p>
+        </div>
+        <div class="historytidbit vibes">
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="content ttmparttwo">
+      <p>Home to legacy venues and cinematic histories, Los Angeles is an ideal backdrop for time travel.  “It’s sunny all year round, the seasons don’t really exist—it does feel like it’s a little outside of time,” Swain says.</p> 
+      <div class="fobpic fobpicnarrow">
+        <img src="img/fobttm.jpg">
+        <div class="fobcaption">
+          <p>Time Travel Mart's booth at the L.A. Times Festival of Books, featuring student works and eclectic time products. (Photo taken by Jasmine Kwok)</p>
+        </div> 
+      </div>
+      <div class="fobpic left fobpicwide">
+        <img src="img/fobttm.jpg">
+        <div class="fobcaption">
+          <p>Time Travel Mart's booth at the L.A. Times Festival of Books, featuring student works and eclectic time products. (Photo taken by Jasmine Kwok)</p>
+        </div> 
+      </div>
+      <div class="pillsbody right">
+        <img src="img/timetravelpills.png">
+      </div>
+      <p>Flashing forward from the 1970s to the 2100s, Time Travel Mart’s space positions student writing with “time travel sickness” pills and fortune dice rollers. 826’s writing centers around the country—from pirate supply shops to an alien supermarket—share key characteristics: hidden doors and passageways that become transitions connecting past, present and future.</p> 
+      <p>“We want people to be intrigued by the space up front to get excited about the work in the back,” Swain says.</p>
+      <div class="dinoeggsbody left">
+        <img src="img/dinoeggs.png">
+      </div> 
+      <p>Overlapping student writing with humorous representations of the time-warped artifacts, the convenience store collages the everyday with the otherworldly to create a dimensional space where time feels oddly fluid.</p>
+      <div class="narrowobjects">
+        <div class="pillsnarrow">
+          <img src="img/timetravelpills.png">
+        </div>
+        <div class="eggsnarrow">
+          <img src="img/dinoeggs.png">
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+      <div id="section5" class="videoheader">
+        <video class="mixingitup" src="media/mixingrealities.mp4" autoplay muted loop playsinline> </video>
+      </div>
+
+      <div class="content mixingrealities">
+        <div class="mainwriting mixedbody">
+          <p>Experiential design thrives in the “in-betweens.” The panorama combines three-dimensional faux terrain and figurines with a two-dimensional painted landscape to create an illusion of depth. Today, emerging technologies like virtual reality mix digital and analog mediums to make virtual spaces feel tangible. </p>
+          <div class="workingimage">
+            <img src="img/workingcity.jpg">
+            <div class="workingimagecaption">
+              <p>The "Shengjing Panorama" is filled with intricate details. In front of the painted city, each figurine reveals small narratives and new discoveries. (Photo taken by Jasmine Kwok)</p>
+            </div>
+          </div>
+          <p> “When we’re in this in-between realm, we wonder which things we can rely on or take as truthful reality,” Velas says. These liminal environments can foster more opportunities for “serendipitous” encounters in daily life.</p>
+          <p>Pillis says memory has been compressed into endless scrolling, replacing the act of flipping through dusty photo albums or rereading letters. “We have an effulgence of these partial experiences related to memory,” says Pillis. “You’re getting the bare bones symbol of someone existing through an image or text.”</p>
+          <div class="brdinteraction right">
+            <img src="img/brassrootscircle.jpg">
+            <div class="brdinteractioncaption">
+              <p>Audience members and characters stand in a tight circle for a moment of grounded presence before the show begins. (Photo provided by Brassroots District)</p>
+            </div>
+          </div>
+          <div class="brdinteraction narrowbrd">
+            <img src="img/brassrootscircle.jpg">
+            <div class="brdinteractioncaption">
+              <p>Audience members and characters stand in a tight circle for a moment of grounded presence before the show begins. (Photo provided by Brassroots District)</p>
+            </div>
+          </div>
+          <p>Immersive spaces can provide a counterbalance by offering a sense of physical presence impossible to scroll past. “People genuinely want something real,” says Porter. “Empathy is a muscle that we need to keep working. Stories allow us to do that.”</p> 
+          <p>For Velas, each ephemeral experience extends beyond the moment: it lingers in a memory, sensation or story that resurfaces.</p>  
+          <p>These environments, whether temporal or permanent, encourage people to reframe how they pay attention to their immediate surroundings. The magic is not the thrill of time travel or entering someplace entirely new but in all the invisible details—the sounds, textures and smells—that cling to the space and layer the everyday with moments of enchantment.</p>
+        </div>
+      </div>
+
+  
+
+   <div class="sensorama">
+        <div class="sidephoto sensoramamachine">
+          <img src="img/sensorama.png">
+          <div class="listentome widebutton">
+            <button>Listen to me!</button>
+            <audio class="podcast" src="media/finalaudio.mp3"></audio>
+          </div>
+        </div>  
+        <div class="sidecaption archivecaption">
+          <div class="sidecaptiontext archivetext">
+            <h2>How do we preserve multisensory experiences?</h2>
+            <p>Tune in to this audio exploration of how immersive media archivists and experiential designers adapt, transform and relive. </p>
+            <p>Hear insights from:</p>
+          </div>
+          <div class="interviewees">
+            <div class="intervieweepic">
+              <img src="img/meml.jpg">
+              <h2>Scott Fisher</h2>
+              <h3>Immersive Media Archive</h3>
+            </div>
+            <div class="intervieweepic">
+              <img src="img/speakeasysociety.jpg">
+              <h2>Julianne Just</h2>
+              <h3>Speakeasy Society</h3>
+            </div>
+            <div class="intervieweepic">
+              <img src="img/panoramalogo.png">
+              <h2>Sara Velas</h2>
+              <h3>Velaslavasay Panorama</h3>
+            </div>
+          </div>
+          <div class="listentome narrowbutton">
+            <button>Listen to me!</button>
+            <audio class="podcast" src="media/finalaudio.mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div id="section6" class="archive">
+    <h2>What does the archive of the past, present and future look like?</h2>
+    <p>From dream sharing to mixing mediums, here's a a glimpse into the some creative forms of documenting immersive experiences.</p>
+  </div>
+
+   <div class="documentation">
+     <div class="memory postcard">
+      <div class="memorytitle">
+        <h2>Travel without traveling</h2>
+      </div>
+       <img src="img/tuskhutpostcard.jpg">
+       <div class="photocaption">
+        <p>Instead of indicators of real travel, Velas explores postcards as "virtual travel to an unreal or impossible location." During the pandemic, people could order postcards sent from the Nova Tuskhut, transforming an imagined space into something physical and exchangable. (Photo by Jasmine Kwok)</p>
+      </div>  
+     </div>
+     <div class="memory vr">
+      <div class="memorytitle">
+        <h2>Reliving an experience digitally</h2>
+      </div>
+       <img src="img/vrdemo.png">
+       <div class="photocaption">
+        <p>The Immersive Media Archive created a VR simulation of the Sensorama, a multisensory cinematic device that allowed users to feel and smell parts of a film. (Photo by Jasmine Kwok)</p>
+      </div>  
+     </div>
+     <div class="memory diary">
+      <div class="memorytitle">
+        <h2>Leaving a handwritten imprint</h2>
+      </div>
+       <img src="img/panoramadiary.png">
+      <div class="photocaption">
+        <p>Visitors can leave their thoughts and notes about their experience in the Velaslavasay Panorama. Each page becomes a written memory capturing a singular moment in time. (Photo by Jasmine Kwok)</p>
+      </div>  
+     </div>
+     <div class="memory dream">
+       <div class="memorytitle">
+        <h2>A resurfacing dream</h2>
+       </div>
+       <img src="img/tellmeyourdream.png">
+      <div class="photocaption">
+        <p>The Velaslavasay Panorama invites people to make a phone call to their "Tell Me Your Dream" hotline. "Maybe a week after their visit, someone will have a memorable dream and call in to leave a recording of it," Velas says. (Photo from the Velaslavasay Panorama)</p>
+      </div>  
+     </div>
+     <div class="memory gaussian">
+       <div class="memorytitle">
+        <h2>What memories look like</h2>
+       </div>
+       <img src="img/gaussiansplat.png">
+       <div class="photocaption">
+        <p>One of Pillis' projects was a sensory experience designed to reconstruct memories using gaussian splatting to create 3D models of homes and environments. Real objects were presented to users to mix physical and virtual simulation, making them feel like they were actually there. (Photo from Daniel Pillis)</p>
+      </div> 
+     </div>
+     <div class="memory radio">
+       <div class="memorytitle">
+        <h2>Sonic time travel</h2>
+      </div>
+       <img src="img/albumcover.png">
+       <div class="photocaption">
+        <p>Relive Brassroots District L.A. '74 through its soundtracks. The vinyl doesn't replace the live experience. Rather, it translates a fleeting encounter into an enduring track, keeping the performance alive from wherever you are. (Photo from Brassroots District)</p>
+      </div> 
+     </div>
+   </div>
+
+   <div class="whyiwrote">
+     <div class="textexplanation">
+       <h2>Creative Vision:</h2>
+       <p>I developed this piece with the hope that this website can act as another portal to visit someplace new. This is a space that holds fragments of memories and collages the tiny moments that made each featured immersive environment wonderfully unique. Each person I spoke to offered such insightful perspectives on what it means to place someone inside a story. Even though each creative had their own approach, there seemed to be a shared design language used to invite wonder and play. </p>
+       <p>Through visuals, sound, interaction and storytelling, this website looks to create a sense of movement, as if you're stepping through these places with me. Rather than treating documentation as static, I want to explore how digital spaces can reconstruct the feeling of being present, from the anticipation of walking into an unfamiliar world to the nostalgia of entering a new place that reminds us of home.</p>
+       <p>For me, this capstone allowed me to appreciate how imagination, history, and spatial design intersect to create enchantment in our everyday world. Dark corridors in a certain light look like portals. Unassuming objects can turn into artifacts from the future. A flickering sign or hidden corner can transport someone into a different reality. These "in-between" places, such as the Velaslavasay Panorama, Time Travel Mart and Brassroots District, exist all around us, specially designed for serendipitous encounters.</p>
+       <p>I hope visitors of this site wander, explore and follow their curiosity. Sometimes, just one sound, texture or interaction can momentarily whisk us away to a place or memory. Magic exists everywhere!</p>
+       <p>-Jasmine Kwok</p>
+     </div>
+     <div class="endingphotos">
+       <div class="explanationpics selfie">
+         <img src="img/panoramaselfie.jpg">
+       </div>
+       <div class="explanationpics disco">
+         <img src="img/discoball.jpg">
+       </div>
+       <div class="explanationpics interstellar">
+         <img src="img/interstellar.jpg">
+       </div>
+     </div>
+   </div>
+
+    
+     <div class="bottomimage">
+       <img src="img/footerimage.png"> 
+     </div>
+
+     <div class="credit">
+       <p>©2026 Jasmine Kwok</p>
+     </div>
+
+	</div>
+
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+  <script src="js/lib/waypoints.min.js"></script>  
+  <script src="js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->

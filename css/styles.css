@@ -1,0 +1,2448 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Mansalva&family=Oldenburg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Mansalva&family=Oldenburg&family=Schoolbell&family=The+Girl+Next+Door&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Mansalva&family=Oldenburg&family=Schoolbell&family=Seaweed+Script&family=The+Girl+Next+Door&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Mansalva&family=Oldenburg&family=Protest+Revolution&family=Schoolbell&family=Seaweed+Script&family=Single+Day&family=The+Girl+Next+Door&display=swap');
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+/*   background-color: lightcyan;*/
+   background-color: #896645;
+   font-family: 'Lucida Console', monospace;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+h1 {
+   text-align: center;
+   font-family: "Lucida Console",monospace;
+}
+h2 {
+   font-family: "Lucida Console",monospace;
+}
+
+h3{
+   font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #cfb580;
+}
+
+a:visited {
+  color: #864e3e;
+  color: #cfb580;
+}
+
+a:hover, a:active {
+  color: #74948c; 
+}
+
+.topimage{
+   background-image: url('../img/teastain.jpg');
+   background-blend-mode: multiply;
+
+}
+
+
+.title{
+   width: 80%;
+   margin: auto;
+}
+
+.title img{
+   width: 80%;
+   margin: auto;
+}
+
+/* menu bar styling */
+
+.menu {
+    position: sticky;
+    top: 0px;
+    background-image: url('../img/woodbackground.jpg');
+    width: 100%;
+    margin: auto;
+    border-bottom: 3px solid #578088;
+    padding: 1% 2%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    font-family: 'Lucida Console', monospace;
+    font-weight: bolder;
+    z-index: 100;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 0;
+    padding: 3%;
+    display: inline-block;
+    text-align: center;
+}
+
+.wide{
+   display: block;
+}
+
+.narrow{
+   display: none;
+}
+
+/* end menu styles */
+
+.introline{
+   background-color: #045d5d;
+   font-size: 2em;
+   position: relative;
+}
+
+.intropart a, .backgroundtext a, .amidcafes a{
+   color: #864e3e;
+   font-size: 1em;
+
+}
+.intropart{
+   font-size: 3em;
+}
+
+.amidcafes a{
+   color: #864e3e;
+}
+
+.amidcafes a:hover, a:active{
+   color: #74948c;
+}
+.intropart a:hover, a:active, .backgroundtext a:hover, a:active {
+  color: #74948c; 
+}
+
+.welcome{
+   font-size: 2em;
+   font-style: italic;
+}
+.welcome p{
+   font-size: 2em;
+}
+.velasmontage{
+   width: 80%;
+   padding-left: 4%;
+   border-radius: 20%;
+   position: relative;
+   z-index: 0.5;
+}
+
+.narrowvid{
+   display: none;
+}
+
+.widevid video{
+   width: 100%;
+}
+
+.montage{
+   margin-top: -3%;
+}
+
+.montagecaption {
+   margin: auto;
+   margin-top: -10%;
+   background-image: url('../img/teastain.jpg');
+   width: 80%;
+   position: relative;
+   z-index: 1;
+}
+.montagecaption p{
+   font-size: 0.7em;
+   font-family: 'Single Day', cursive;
+}
+.introline p{
+   font-family: monospace;
+   text-align: center;
+   padding: 3%;
+   text-shadow: 1px 1px 12px lightblue;
+   color: white;
+}
+.realintro{
+   background-color: #b6cfb9;
+   margin-top: -920px;
+   margin-bottom: -400px;
+}
+.portalsection{
+   /*background-color: #b6cfb9;*/
+   margin-top: -320px;
+   margin-bottom: -40px;
+}
+
+.bottompng{
+   margin-top: -10%;
+   position: relative;
+   z-index: 0.5;
+}
+.layerssection{
+   background-color: #b6cfb9;
+   /*margin-top: -100px;*/
+   margin: auto;
+   margin-bottom: -40px;
+   width: 80%;
+}
+
+.futuresigncaption{
+   font-size: 0.7em;
+   margin-top: -6%;
+}
+.futuresigncaption p{
+   font-style: italic;
+   margin-left: -5%;
+   text-align: center;
+}
+
+.entrysection{
+   width: 85%;
+   margin: auto;
+   background-color: #b6cfb9;
+   margin-top: 5%;
+}
+.echoparkvids{
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   grid-gap: -400px;
+}
+
+.logopic{
+   position: relative;
+   z-index: 1;
+   margin-right: -26%;
+   margin-top: 16%;
+}
+
+.dinovideo{
+   position: relative;
+   z-index: 0.5;
+   font-size: 0.6em;
+}
+
+.dinovideo p{
+   font-style: italic;
+   margin-top: -6%;
+   text-align: center;
+}
+
+.dinovideo video{
+   width: 100%;
+   margin-bottom: -4%;
+}
+
+.cinematicsection{
+   width: 85%;
+   margin: auto;
+   background-color: #b6cfb9;
+   margin-top: 5%;
+}
+
+.playritual{
+   width: 85%;
+   margin: auto;
+   margin-bottom: 3%;
+   margin-top: 1.2%;
+   background-color: black;
+}
+
+.backgroundtext p{
+   color: black;
+}
+
+.tiltedthings{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   margin: auto;
+   /*background-color: #74948c;*/
+   transform: rotate(-2deg);
+}
+.porterquote{
+  display: block;
+  width: 80%;
+}
+
+.martianintro{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   transform: rotate(2deg)
+}
+
+.insideimage{
+   margin: auto;
+   position: relative;
+   z-index: 0.5;
+}
+.insideimage img{
+   width: 130%;
+   margin: auto;
+   z-index: 1;
+   position: relative;
+   transform: rotate(-4deg);
+}
+.justin img{
+   width: 100%;
+   margin: auto;
+}
+
+.justincaption p{
+   font-style: italic;
+   font-size: 0.4em;
+}
+
+.justincaption{
+   font-size: 0.7em;
+   margin-top: -6%;
+   position: relative;
+   z-index: 2;
+   font-family: 'Single Day', cursive;
+   font-weight: 0.6em;
+   transform: rotate(-5deg);
+   background-image: url('../img/teastain.jpg');
+}
+
+.wormholevideo{
+   width: 70%;
+   height: 450px;
+   background-image: url('../img/cinemaprojectorscreen.jpg');
+   background-size: cover;
+   margin: auto;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   z-index: 0.5;
+}
+
+.wormholevideo video{
+   width: 75%;
+}
+
+.wormholecaption {
+   background-image: url('../img/teastain.jpg');
+   width: 65%;
+   padding: 0.4%;
+   margin: auto;
+   margin-top: -8%;
+   position: relative;
+   z-index: 2;
+   transform: rotate(3deg);
+}
+.wormholecaption p{
+   font-family: 'Single Day', cursive;
+}
+.timefreezy{
+   position: relative;
+   z-index: 0.5;
+   width: 45%;
+}
+
+.timefreezy img{
+   width: 50%;
+   margin-right: -20%;
+   margin-left: 15%;
+}
+
+.freezycaption{
+   background-image: url('../img/teastain.jpg');
+   font-size: 0.7em;
+   width: 60%;
+   margin: auto;
+   margin-top: -5%;
+   position: relative;
+   z-index: 1;
+}
+
+.freezycaption p{
+   font-style: italic;
+   font-family: 'Single Day', cursive;
+}
+
+.realtitle h1{
+   padding-top: 2%;
+   font-size: 3em;
+}
+.realintro{
+   width: 75%;
+   margin: auto;
+   margin-top: -900px;
+}
+.content{
+   padding: 4%;
+   padding-top: 1%;
+   font-size: 1.5em;
+   font-family: 'Lucida Console',monospace;
+   font-family: 'Oldenburg',serif;
+   color: darkbrown;
+}
+
+.content p{
+   padding-left: 15%;
+   padding-right: 15%;
+   margin: 4%;
+   font-size: 0.8em;
+   line-height: 1.3em;
+
+}
+.contentimages {
+   margin: auto;
+   margin-top: -2%;
+   width: 100%;
+   border-radius: 5%;
+   margin: auto;
+}
+.panoramastrip{
+   transform: rotate(-4deg);
+   width: 110%;
+   margin: auto;
+   margin-left: -7%;
+}
+
+.panoramastrip p{
+   font-family: "Lucida Console", monospace;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+.contentimages p{
+   font-style: italic;
+   font-size: 0.6em;
+   text-align: center;
+}
+.contentimages img{
+   width: 100%;
+   margin: auto;
+   /*padding-top: 2%;*/
+   border-radius: 5%;
+}
+
+.echoparkfilm{
+   transform: rotate(-3deg);
+   margin-top: -4%;
+}
+
+.echoparkfilm p{
+   margin-top: 1%;
+}
+.packed{
+   margin-top: 1%;
+   width: 50%;
+   margin: auto;
+   font-size: 1.4em;
+   line-height: 1.2em;
+   color: white;
+}
+.pullquote {
+   border: 4px solid black;
+  width: 30%;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  font-style: italic;
+  text-align: left;
+  padding-left: 4%;
+  background-color: #eab05c;
+  background-image: url("img/tiles.jpg");
+}
+.pullquote p{
+   padding: 3%;
+}
+
+.name {
+  font-size: 0.7em;
+  text-align: left;
+  line-height: 0.1em;
+  padding-bottom: 30px;
+}
+.hoveringobjects{
+   display: grid;
+   grid-template-columns: 2fr 2fr 4fr 2fr 2fr;
+   grid-gap: 1%;
+   margin-top: 6%;
+   background-color: #cfb580;
+   background-image: url('../img/grocerystoreshelves.jpg');
+   background-size: 125%;
+   margin: auto;
+   width: 95%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+.hoveringobjects img{
+
+}
+
+.actualobjectimage img{
+   margin: auto;
+}
+.actualobjectimage p{
+   text-align: center;
+}
+.pills, .tape, .toupee, .clock {
+   width: 120%;
+}
+.dinoeggs, .candle, .coffee{
+   margin-top: 26%;
+}
+.objectcaption h3{
+   font-size: 1.1em;
+   text-align: center;
+   font-family: 'Lucida Console', monospace;
+}
+
+.withoutlogo{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-gap: -2%;
+}
+
+.whatwillyoufind{
+  border: 4px solid black;
+  background-color: #b6cfb9;
+  width: 80%;
+  margin: auto;
+}
+
+.whatwillyoufind h2{
+   font-family: 'Oldenburg', serif;
+   font-size: 1.6em;
+}
+
+.whatwillyoufind p{
+   font-family: 'Lucida Console', mono;
+   font-size: 0.9em;
+}
+
+.actualobjectimage{
+   visibility: hidden;
+}
+
+.actualobjectimage img{
+   width: 80%;
+}
+
+.actualobjectimage p{
+   /*margin: auto;*/
+   font-family: monospace;
+   font-size: 0.8em;
+   text-align: left;
+}
+
+
+.filmstrips img{
+   /*margin: -100px;*/
+   width: 50%;
+}
+
+.left {
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 50%
+  /*padding-right: 20px;*/
+  /*margin-left: -40px;*/
+}
+
+.right {
+  float: right;
+  width: 50%
+  /*padding-left: 20px;*/
+  /*margin-right: -40px;*/
+}
+
+.reflection{
+   width: 20%;
+}
+.narrowreflection{
+   width: 75%;
+   margin: auto;
+   display: none;
+}
+
+.grandmother{
+   width: 40%;
+   margin: 4%;
+}
+
+.grandmother p{
+   font-size: 0.5em;
+   font-style: italic;
+   padding: 0%;
+}
+.sideimages{
+   width: 30%;
+   padding: 2%;
+}
+
+.content{
+   line-height: 1.5em;
+}
+
+.bodyimage {
+   width: 30%;
+}
+
+.panoramarow{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 2%;
+}
+
+.eachrowpic {
+   font-size: 0.5em;
+   padding: -4%;
+   position: relative;
+}
+
+.eachrowpic p{
+   padding: -4%;
+}
+/*.panoramacollage {
+   width: 30%;
+   margin: 2%;
+   margin-top: -8%;
+}*/
+.brassrootscollage{
+   width: 50%;
+}
+
+/*castle background*/
+.backdrop{
+   /*position: sticky;*/
+   top: 0px;
+   z-index: -1;
+}
+
+/*changing movie gallery*/
+
+.introduction {
+   background-color: #00555A;
+/*   display: grid;
+   grid-template-columns: 1fr 2fr;*/
+   width: 100%;
+}
+
+.videoheader {
+   width: 100%;
+}
+
+.videoheader video {
+   width:100%;
+   position: sticky;
+   margin-bottom: 100px;
+}
+.history video{
+   margin-bottom: 40px;
+}
+
+.portal video{
+   margin-bottom: 200px;
+   margin-top: -15%;
+}
+.personalinteraction{
+   width: 100%;
+   margin-top: -4%;
+}
+.personalinteraction video{
+   width: 100%;
+}
+
+
+/*.portalimages img{
+   width: 40%;
+   padding: 10%;
+}*/
+.movietitle{
+   margin: auto;
+   border-radius: 3%;
+   width: 100%;
+   /*box-shadow: 2px 4px 12px mintcream;*/
+   position: relative;
+   /*left: 200%;*/
+}
+.videoheader{
+   z-index: -0.5;
+   width: 100%;
+   margin: auto;
+}
+
+.history{
+   margin-top: 5%;
+}
+
+.portal{
+   margin-bottom: -25%;
+   margin-top: 2%;
+}
+.historysidebar{
+   background-color: hotpink;
+}
+
+.timelineincluded{
+   display: grid;
+   grid-template-columns: 1.2fr 1fr;
+}
+
+.knightlab p{
+   font-size: 0.64em;
+   font-style: italic;
+   margin: -3%;
+}
+.knightlab{
+   width: 100%;
+}
+.historyimages{
+   width: 100%;
+}
+
+.serendipityheader{
+   margin-top: 15%;
+}
+
+.sidebyside {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+.windowinstallation{
+   width: 100%;
+   background-color: #896645;
+   margin-top: 5%;
+}
+
+.timeline{
+   margin: auto;
+}
+
+.whatwillyoufind{
+   padding: 2%;
+   transform: rotate(-2deg);
+}
+
+.whatwillyoufind h2{
+   text-align: center;
+   font-size: 2em;
+
+}
+.whatwillyoufind p{
+   margin: auto;
+   text-align: center;
+   font-family: "Lucida Console", monospace;
+}
+
+.timetravellogo{
+   border-radius: 14%;
+   width: 60%;
+   margin: auto;
+}
+.timetravellogo img{
+   width: 50%;
+   margin: auto;
+}
+
+.photoright {
+    flex-direction: row-reverse;
+}
+
+.windowinstallation{
+   background-color: #896645;
+}
+.frontofstore{
+   width: 86%;
+   margin: auto;
+   margin-bottom: -15%;
+}
+.frontofstore img{
+   width: 100%;
+}
+
+.vibrantstorefront{
+   background-image: url('../img/teastain.jpg');
+}
+
+.vibrantstorefront p{
+   font-size: 0.8em;
+   font-family: 'Single Day', cursive;
+   font-style: italic;
+   text-align: center;
+   padding: 3%;
+}
+.sidecaption {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+
+.sidecaptiontext{
+   padding: 4%;
+}
+.sidecaptiontext p{
+   font-family: 'Oldenburg', serif;
+}
+
+.amidcafes p{
+   margin-top: -4%s;
+}
+.archivetext{
+   padding: 2%;
+   margin-bottom: 2%;
+}
+
+.sidephoto {
+  /*flex: 2;*/
+  width: 100%;
+}
+
+.sensoramamachine img{
+   /*scale: object-fit;*/
+   width: 100%;
+   transform: rotate(5deg);
+}
+.sidecaption {
+  /*flex: 1;*/
+  background-color: #ca7c4c;
+  color: black;
+  font-size: 1.2em;
+  display: grid;
+  align-items: center;
+  text-align: left;
+  font-family: "Oldenburg" serif;
+  /*padding: 20px 40px;*/
+}
+
+.archivecaption{
+   background-color: #ca7c4c;
+}
+
+.archivecaption p, h2, h3{
+   color: black;
+}
+.sidecaption p{
+   font-family: "Oldenburg" serif;
+}
+.orangecaption{
+   background-color: #d95122;
+}
+
+.smalltext p{
+   font-size: 0.5em;
+   font-family: 'Lucida Console', monospace;
+   font-style: italic;
+   margin: 5%;
+   margin-top: -6%;
+}
+
+/*.movietitle h2{
+   text-align: center;
+   color: white;
+   font-size: 2em;
+}*/
+.slideinimage{
+   position: relative;
+   width: 50%;
+   margin: auto;
+   /*left: 200%;*/
+
+}
+.slideinimage p{
+   margin: auto;
+   font-size: 1.4em;
+   text-align: center;
+   color: blue;
+}
+.gallery{
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1%;
+   left: 200%;
+   padding: 2%;
+
+}
+/*.scenes img{
+   border-radius: 3%;
+}*/
+.title{
+   padding: 2%;
+   width: 100%;
+   /*background-color:darkturquoise;*/
+   color: black;
+   display-grid: ;
+}
+.sidetext p{
+   padding: 4%;
+   font-size: 1.5em;
+   font-family: monospace;
+   color: white;
+}
+
+/*choose new movie */
+
+.newmovie{
+   background-image: linear-gradient(lightpink, plum);
+   width: 100%;
+   padding: 2%;
+   margin: auto;
+   margin-bottom: 2%;
+
+}
+.movieelements{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 2%;
+}
+.moviecollage{
+   margin-top: 2%;
+   position: relative;
+   left: 200%;
+}
+.colornewmovie{
+   position: absolute;
+   left: 28%;
+   top: 25%;
+   background-color: darkslateblue;
+   opacity: 0.8;
+   padding: 2%;
+   border-radius: 3%;
+   box-shadow: 3px 3px 5px lightpink;
+}
+.colornewmovie h1{
+   font-size: 3em;
+   color: white;
+}
+.choicecolor img{
+   border-radius: 20%;
+   box-shadow: 2px 2px 3px black;
+}
+.choicecolor{
+   width: 90%;
+   margin: auto;
+}
+.choice{
+   display: grid;
+   margin: 2%;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
+
+}
+.choice img{
+   border-radius: 20%;
+}
+.options{
+   width: 100%;
+   border-radius: 20%;
+   box-shadow: 2px 2px 3px black;
+}
+.eachaspect{
+   width: 100%;
+}
+.eachaspect h3{
+   font-family: cursive;
+   text-align: center;
+   font-size: 1.6em;
+   width: 80%;
+   background-image: linear-gradient(hotpink, aquamarine);
+   margin: auto;
+   margin-bottom: 4%;
+   border-radius: 8%;
+}
+
+
+
+
+
+/*How does color affect everything?*/
+.allsenses{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: auto;
+   grid-gap: 3%;
+   width: 90%;
+}
+.palettetitles h2{
+   text-align: center;
+}
+.sensorytitle{
+   color: black;
+}
+.sensetitles{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sense h2{
+   text-align: center;
+}
+.explanationtitle{
+   color: black;
+}
+.effects{
+   padding: 2%;
+   background-color: #e6692a;
+   color: pink;
+}
+.bannerimage{
+   width: 60%;
+   margin: auto;
+   margin-bottom: 2%;
+   position: relative;
+   left: 200%
+}
+.titlereveal{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.title{
+   /*background-image: linear-gradient(lightpink, lemonchiffon, palegreen, lightblue);*/
+   width: 100%;
+   border-radius: 3%;
+}
+.exampleimages{
+   width: 100%;
+   margin: auto;
+   margin-top: 2%;
+   position: sticky;
+   top: 0px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 2%;
+}
+.sensemaps{
+   width: 100%;
+   margin: auto;
+   margin-top: 2%;
+   position: sticky;
+   top: 0px;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+   grid-gap: 2%;
+}
+.eachimage{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   display: none;
+}
+
+.hoveringcaption{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   padding: 3%;
+   width: 100%;
+   height: 40%;
+   background-color: darkturquoise;
+   display: none;
+}
+.hoveringcaption p{
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-size: 0.9em;
+   font-family: monospace;
+}
+.resetbutton{
+   margin-top: 5%;
+   margin-left: 40%;
+   position: relative;
+   font-family: cursive;
+   font-size: 1.2em;
+}
+.reset{
+   border-radius: 20%;
+   background-color: pink;
+   border-width: 0px;
+   align-content: center;
+
+}
+
+.unionsquaretext{
+}
+
+.floristcaption p{
+   font-size: 0.5em;
+   font-style: italic;
+   padding: 0%;
+   transform: rotate(-4deg);
+}
+.insidefloristshop{
+   width: 40%;
+   margin-left: -5%;
+}
+.insidefloristshop video{
+   width: 80%;
+}
+.floristvideocaption{
+   background-image: url('../img/teastain.jpg');
+   width: 80%;
+}
+.floristvideocaption p{
+   font-family: "Single Day", cursive;
+   color: black !important;
+   font-style: italic;
+   font-size: 0.6em;
+   margin-right: -8%;
+}
+
+
+.textwithpaper{
+   background-image: url('../img/vintagetexture.jpg');
+   background-size: 100%;
+   width: 100%;
+   margin: auto;
+   padding: 2%;
+   z-index: -0.5;
+   position: relative;
+   font-family: "Single Day", cursive;
+   font-size: 1.2em;   
+   font-weight: 100;
+   color: white;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
+.martiantext{
+   display: block;
+   margin-top: 7%;
+}
+
+.textwithpaper p{
+   color: white;
+   line-height: 1.5em;
+   font-weight: 100;
+}
+
+.porterpullquote{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
+
+
+.smallimages{
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 2%;
+   margin: 5%;
+   width: 80%;
+}
+
+.inviteimage {
+   margin: auto;
+   width: 100%;
+   margin-left: 28%;
+}
+.porterpic{
+   margin-left: 4%;
+   margin-top: -18%;
+   transform: rotate(-6deg);
+}
+.places{
+   position: relative;
+}
+.smallimages img{
+   border-radius: 20%;
+}
+.bigimage{
+   width: 80%;
+   margin: 5%;
+}
+.bigimage img{
+   border-radius: 20%;
+}
+.significance{
+   width: 90%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 3%;
+   background-image: linear-gradient(pink, lightyellow, cyan);
+   overflow-x: hidden;
+}
+.explanationsexamples{
+   vertical-align: top;
+/*   margin: auto;*/
+   padding: 2%;
+   width: 100%;
+/*   background-color: aquamarine;*/
+}
+.explanationsexamples p{
+   font-size: 1.4em;
+   font-family: serif; 
+}
+.palettepics {
+   grid-gap: 15px;
+   position: relative;
+   vertical-align: top;
+   margin: auto;
+   width: 50%;
+}
+
+.relationshippicture{
+   position: relative;
+   top: 0px;
+   margin: 20px;
+   width: 100%;
+}
+
+.relationshippicture img{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+}
+.paletteexplanation {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   padding-top: 2%;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-bottom: 20%;
+   background-color: rgba(0,0,0,0.78);
+   margin: auto;
+   width: 100%;
+   height: 10%;
+   display: none;
+}
+.paletteexplanation p{
+   color: white;
+   width: 80%;
+   text-align: justify;
+   font-size: 0.7em;
+   
+}
+.palettepics{
+   position: relative;
+}
+.palettepics p{
+   width: 100%;
+}
+
+/*Historical layers part*/
+.unrestoredrestoration{
+   position: relative;
+   width: 80%;
+}
+
+.ursidebyside{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   width: 85%;
+   margin: auto;
+   margin-top: 5%;
+}
+
+.urphoto{
+   width: 100%;
+}
+.urphoto img{
+   width: 100%;
+}
+
+.urtext{
+   background-image: url('../img/vintagetexture.jpg');
+   line-height: 1.5em;
+}
+.urtext h3{
+   font-family: "Lucida Console", monospace;
+   font-size: 1.5em;
+   font-family: "Single Day", cursive;
+   font-size: 1.5em;   
+   font-weight: 100;
+   line-height: 1.2em;
+   text-shadow: 2px 2px 2px black;
+   margin: auto;
+   padding: 10%;
+   color: white;
+}
+.urtext p{
+   font-family: "Lucida Console", monospace;
+   font-size: 0.6em;
+   margin: auto;
+   padding: 10%;
+   color: white;
+   margin-top: -14%;
+}
+.favoritesymbols h2{
+   padding-left: 2%;
+   padding: 2%;
+   text-align: center;
+   width: 100%;
+   font-size: 1.5em;
+   background-image: linear-gradient(lightpink, orange, lightyellow, lightgreen, cyan);
+}
+
+.meaning{
+/*   background-color: white;*/
+   width: 90%;
+   margin: auto;
+   display: none;
+}
+.meaning p{
+   font-size: 1.2em;
+   text-align: justify;
+/*   text-align: center;*/
+   font-family: cursive;
+}
+/*.rainboworder img {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+*/
+
+
+
+/*Brassroots*/
+.brassrootsfilmstrip{
+   width: 92%;
+   margin: auto;
+  /* margin-bottom: -7%;
+   margin-top: -12%;*/
+   position: relative;
+   z-index: 1;
+   transform: rotate(-3deg);
+}
+.brassrootsfilmstrip p{
+   margin: auto;
+   text-align: center;
+   margin-bottom: 2%;
+   color: white;
+}
+.brassrootsbody{
+   position: relative;
+   z-index: 1;
+   padding: 1%;
+   background-color: #ca7c4c;
+}
+.personalinteraction{
+   /*background-color: #ca7c4c;*/
+   width: 100%;
+   margin: auto;
+   margin-top: -1%;
+   /*box-shadow: 2px 2px 5px black;*/
+   position: relative;
+   z-index: -0.5;
+}
+
+.porterimage{
+   width: 30%;
+   margin-right: 1.3%;
+   margin-left: 3%;
+   padding: 3%;
+   position: relative;
+}
+.porterimage img{
+   width: 100%;
+   position: relative;
+
+}
+
+.invitecaption h3{
+   font-size: 0.9em;
+   padding: 4%;
+   padding-left: 6%;
+   color: white;
+}
+.invitecaption p{
+   font-style: italic;
+   font-size: 0.8em;
+   margin: -8%;
+}
+.transformationstation{
+   width: 40%;
+   padding: 2%;
+}
+.bodyimagecaption{
+   width: 100%;
+   margin: auto;
+   padding: -15%;
+   background-image: url('../img/woodbackground.jpg');
+   transform: rotate(2deg);
+}
+.bodyimagecaption p{
+   font-size: 0.6em;
+   font-family: 'Single Day', cursive;
+   color: white;
+   margin-left: -10%;
+   margin-right: -10%;
+   margin-top: -8%;
+
+}
+.atmosphere{
+   /*background-color: #ca7c4c;*/
+   width: 90%;
+   margin: auto;
+   margin-top: -1%;
+   /*box-shadow: 2px 2px 5px black;*/
+   position: relative;
+   z-index: -0.5;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-gap: 4%;
+}
+
+
+
+.brdsettings{
+   width: 40%;
+}
+.brdhistorypics{
+   margin-left: -5%;
+   position: relative;
+   z-index: 2;
+   background-image: url('../img/vintagetexture.jpg');
+
+}
+
+
+.brdsetting img{
+   width: 80%;
+   margin: auto;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   position: relative;
+}
+
+.soundtrack{
+   width: 86%;
+   background-color: #191414;
+   /*background-image: url('../img/vintagebg.jpg');*/
+   /*transform: rotate(3deg);*/
+   margin-top: -8%;
+   position: relative;
+   z-index: 1;
+   margin-left: -10%;
+}
+
+/*Ttm part two*/
+.ttmparttwo{
+   width: 75%;
+   margin: auto;
+   background-color: #b6cfb9 ;
+   margin-bottom: 2%;
+   margin-top: -2%;
+}
+
+.fobpicwide{
+   transform: rotate(-5deg);
+   width: 30%;
+   margin-left: 3%;
+   position: relative;
+   z-index: 0.5;
+}
+.narrowobjects{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: auto;
+   display: none;
+}
+.fobpicnarrow{
+   transform: rotate(0deg);
+   width: 100%;
+   margin: auto;
+   display: none;
+}
+
+.fobcaption{
+   background-image: url('../img/teastain.jpg');
+   position: relative;
+   z-index: 2;
+   font-size: 0.7em;
+   margin-bottom: 2%;
+}
+
+.fobcaption p{
+   font-style: italic;
+   margin: -4%;
+   font-family: 'Single Day', cursive;
+}
+
+.pillsbody{
+   width: 25%;
+   transform: rotate(4deg);
+   margin-left: -2%;
+}
+
+.dinoeggsbody{
+   width: 20%;
+   margin-top: -5%;
+}
+.samples{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1%;
+}
+
+.sidesoundtrack{
+   width: 40%;
+   float: right;
+   z-index: 1;
+   position: relative;
+}
+
+.listentobrassroots{
+   padding: 2%;
+   margin: auto;
+}
+.listentobrassroots h3{
+   text-align: center;
+   color: white;
+}
+.albumimage{
+   padding: 4%;
+}
+
+.livesign{
+   width: 50%;
+   margin: auto;
+   margin-bottom: -5%;
+   position: relative;
+   z-index: 2;
+}
+
+.brassrootsfilmstrip{
+   position: relative;
+   z-index: -0.5;
+}
+.brassrootsintro{
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+}
+
+.bottomsoundtrack p{
+   font-family: 'Lucida Console', monospace;
+   font-size: 0.7em;
+   font-style: italic;
+   padding: 5%;
+   text-align: center;
+   color: white;
+}
+
+.covers{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.albumcoverlist audio{
+   width: 90%;
+}
+.albumcover{
+   padding: 2%;
+}
+.albumcover img{
+   width: 60%;
+   margin: auto;
+}
+
+.albumcover audio{
+   width: 60%;
+   margin: auto;
+   align-content: center;
+}
+
+.albumcaption{
+   width: 100%;
+   padding: 2%;
+}
+
+.albumcaption audio{
+   width: 75%;
+}
+
+.albumcaption p{
+   font-size: 0.8em;
+   margin-right: 4%;
+   color: white;
+   opacity: 100%;
+   padding: 2%;
+}
+.albumimage{
+   position: relative;
+}
+
+.novatuskhutinfo{
+ /*  display: grid;
+   grid-template-columns: 1fr 3fr;*/
+   margin: auto;
+}
+
+.peanuts{
+   width: 80%;
+   margin: auto;
+   margin-bottom: -6%;
+   position: relative;
+   z-index: 0.5;
+}
+
+.peanutscaption{
+   font-size: 0.86em;
+   width: 70%;
+   margin: auto;
+   margin-bottom: -4%;
+   background-image: url('../img/teastain.jpg');
+   position: relative;
+   z-index: 1;
+}
+
+.peanutscaption p{
+   width: 90%;
+   font-family: 'Single Day', cursive;
+   text-align: center;
+   font-style: italic;
+   margin-bottom: -1%;
+}
+.novatuskhutbody{
+   background-color: #ca7c4c;
+   width: 75%;
+   margin: auto;
+   margin-bottom: 2%;
+   margin-top: -4%;
+}
+
+.novatuskhutbody p{
+   margin-right: -2%;
+}
+.novatuskhutbody img{
+   width: 100%;
+}
+.novaimages{
+   margin: auto;
+   margin-top: -12%;
+   width: 30%;
+   /*transform: rotate3d(0, 4, 1, 10deg);*/
+}
+.novavideo{
+   width: 28%;
+   margin-top: 3%;
+}
+.novavideo video{
+   width: 100%;
+   margin-right: 14%;
+}
+
+.videocaption{
+   font-size: 0.6em;
+   font-style: italic;
+}
+.videocaption p{
+   margin: -2%;
+   margin-left: -4%;
+   margin-right: -4%;
+   padding: -2%;
+}
+
+/*coloring book*/
+.colored{
+   width: 30%;
+   margin-left: 10%;
+}
+/*pocahontas scrolling*/
+
+.princessbackground{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   height: 100vh; 
+   z-index: -0.5;
+}
+.princessbackground img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: relative;
+}
+
+.princessbackground{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   height: 100vh; 
+   z-index: -0.5;
+}
+.princessbackground img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: relative;
+}
+
+
+.brdhistorybg{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   height: 100vh; 
+   z-index: -0.5;
+   margin-bottom: -50%;
+}
+
+
+.brdhistorybg img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: relative;
+}
+
+
+.colorrrange{
+   opacity: 50%;
+}
+.individualcolor{
+   opacity: 80%;
+   position: relative;
+   width: 40%;
+   /*content-align: right;*/
+   margin: 10%;
+   margin-left: 48%;
+   /*background-color: #E0FFFA;*/
+   background-image: url('../img/woodbackground.jpg');
+   box-shadow: 2px 2px 5px black;
+   padding-top: -20px;
+   margin-bottom: 320px;
+   max-width: 640px;
+   margin: 100vh auto;
+   margin-left: 48%;
+}
+.individualcolor p{
+   font-family: monospace;
+   font-family: "Oldenburg", serif;
+   text-align: left;
+   font-size: 1.3em;
+   color: black;
+   color: white;
+   width: 100%;
+   padding: 6%;
+   margin-bottom: 2%;
+}
+
+
+.historytidbit{
+   opacity: 70%;
+   position: relative;
+   width: 40%;
+   margin: 10%;
+   background-color: #E0FFFA;
+   background-image: url('../img/woodbackground.jpg');
+   box-shadow: 2px 2px 5px black;
+   padding-top: -20px;
+   margin-bottom: 250px;
+   max-width: 640px;
+   margin: 100vh auto;
+   margin-left: 48%;
+}
+.historytidbit p{
+   font-family: "Oldenburg", serif;
+   text-align: left;
+   font-size: 1.2em;
+   color: black;
+   color: white;
+   width: 100%;
+   padding: 6%;
+   margin-bottom: 2%;
+}
+
+.historytidbit a{
+   font-size: 1em;
+}
+
+.invisible{
+   background-color: white;
+   opacity: 0%;
+}
+.documentation{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 5px;
+   width: 80%;
+   padding: 10%;
+   align: center;
+   margin: auto;
+   margin-top:70px;
+   background-color: #b6cfb9;
+   position: relative;
+   z-index: 0.5;
+}
+
+.memory{
+   position: relative;
+   width: 100%;
+}
+.diary img{
+   margin-top: 20%;
+}
+
+.gaussian img{
+   width: 120%;
+   margin-left: -1%;
+}
+.photocaption {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 4%;
+  color: white;
+  background-color: rgba(251,247,245,0.85);
+  background-image: url('../img/teastain.jpg');
+  display: none;
+}
+
+
+.photocaption p{
+   color: black;
+   font-family: 'Single Day', cursive ;
+}
+
+.portercaption{
+   background-image: url('../img/teastain.jpg');
+   position: relative;
+   z-index: 2;
+   transform: rotate(2deg);
+   margin-top: 12%;
+}
+.portercaption p{
+   color: black !important;
+   font-size: 0.6em;
+}
+
+.brdinteraction img{
+   margin: 5%;
+   width: 60%;
+}
+
+.narrowbrd{
+   display: none;
+   margin: auto;
+}
+
+.brdinteractioncaption{
+   font-size: 0.85em;
+   font-family: 'Single Day', cursive;
+   background-image: url('../img/teastain.jpg');
+   width: 70%;
+   margin-top: -10%;
+   margin-left: 15%;
+   position: relative;
+   z-index: 1;
+}
+
+/*Mixed Realities*/
+.mixingrealities{
+   background-color: #b6cfb9;
+   width: 85%;
+   margin: auto;
+   margin-bottom: 2%;
+}
+
+
+.sensorama{
+   width: 90%;
+   display: grid;
+   margin: auto;
+   grid-template-columns: 1fr 2fr;
+}
+
+.sensoramamachine{
+   position: relative;
+   z-index: 0.5;
+}
+
+.listentome{
+   margin: auto;
+   margin-left: 20%;
+}
+
+.narrowbutton{
+   margin: auto;
+   display: none;
+}
+
+.listentome button{
+   background-color: #ca7c4c;
+   font-family: 'Lucida Console', monospace;
+   border-width: 0px;
+   padding: 6%;
+   margin: auto;
+   margin-top: -4%;
+   margin-left: 4%;
+   position: relative;
+   z-index: 2;
+}
+
+.narrowbutton{
+   background-color: hotpink;
+}
+.narrowbutton button{
+   background-color: #b6cfb9;
+}
+.archive{
+   background-image: url('../img/vintagetexture.jpg');
+   width: 60%;
+   margin: auto;
+   margin-top: 3%;
+   margin-bottom: -10%;
+   position: relative;
+   z-index: 1;
+   transform: rotate3d(0, 0, 1, -3deg);
+
+}
+
+.archivetext h2{
+   padding-left: 3%;
+}
+.archivetext p{
+   font-family: 'Oldenburg', serif;
+   padding-left: 3%;
+}
+
+.howdowepreserve {
+   font-style: bolder;
+}
+
+.archive h2{
+   font-size: 1.8em;
+   color: white;
+   font-family: 'Oldenburg', serif;
+   text-align: center;
+   padding: 5%;
+}
+.archive p{
+   margin-top: -8%;
+   color: white;
+   font-family: 'Single Day', cursive;
+   padding: 5%;
+   text-align: center;
+   font-size: 1.4em;
+}
+
+.interviewees{
+   display: grid;
+   padding: 5%;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: -1%%;
+   margin-top: -10%;
+   align: left;
+}
+.interviewees h2{
+   font-size: 1.1em;
+   margin-right: -20%;
+   font-style: "Oldenburg",serif;
+}
+.interviewees h3{
+   font-size: 0.8em;
+   font-style: italic;
+}
+.intervieweepic{
+   width: 60s%;
+   margin: auto;
+}
+
+
+.postcard img{
+   margin-top: 6%;
+}
+
+.photocaption p{
+   font-size: 0.9em;
+}
+
+.workingimage{
+   width: 60%;
+   margin: auto;
+   position: relative;
+   z-index: 0.5;
+}
+
+.workingimage img{
+   margin: auto;
+}
+
+.workingimagecaption{
+   background-image: url('../img/teastain.jpg');
+   width: 70%;
+   font-size: 0.85em;
+   margin: auto;
+   margin-top: -5%;
+   position: relative;
+   z-index: 1;
+}
+
+.workingimagecaption p{
+   font-family: 'Single Day', cursive;
+}
+
+.memorytitle h2{
+   font-family: 'Single Day', cursive;
+   text-align: center;
+}
+.panoramacaption{
+   background-image: url('../img/vintagetexture.jpg');
+}
+.panoramacaption p{
+   font-size: 1.3em;
+   color: white;
+}
+
+.whyiwrote{
+   width: 90%;
+   margin: auto;
+   margin-top: 4%;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   background-image: url('../img/crumpledpaper.jpg');
+}
+
+.textexplanation h2{
+   font-family: 'Oldenburg', serif;
+   padding-left: 4%;
+   padding-top: 4%;
+}
+
+.textexplanation p{
+   font-size: 1.3em;
+   font-family: 'Single Day', cursive;
+   padding-left: 4%;
+   padding-right: 4%;
+}
+
+.endingphotos{
+   width: 86%;
+   margin-top: -3%;
+
+}
+
+.selfie{
+   transform: rotate(5deg);
+}
+.selfie img{
+   width: 65%;
+   margin: auto;
+   margin-right: 6%;
+}
+.disco{
+   transform: rotate(-5deg);
+}
+
+.disco img{
+   width: 70%;
+   margin: auto;
+   margin-left: 10%;
+}
+
+.interstellar{
+   transform: rotate(8deg);
+}
+
+.interstellar img{
+   width: 65%;
+   margin: auto;
+   margin-right: 6%;
+}
+.bottomimage{
+   position: relative;
+   z-index: 0.5;
+}
+.credit{
+   background-image: url('../img/teastain.jpg');
+   padding: 1.06%;
+   position: relative;
+   z-index: 2;
+   font-size: 1.4em;
+}
+.credit p{
+   text-align: right;
+   padding-right: 2%;
+   font-family: 'Single Day', cursive;
+}
+
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 1500px) {
+   .ursidebyside {
+      display: block;
+   }
+
+   .whearypeepers{
+      margin-bottom: 4%;
+   }
+
+   .whyiwrote{
+      display: block;
+      width: 100%;
+   }
+
+   .endingphotos{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2%;
+      width: 100%;
+      margin-top: 2%;
+   }
+
+   .interstellar img, .disco img, .selfie img{
+      width: 100%;
+      margin: auto;
+      margin-bottom: 3%;
+   }
+
+   .interstellar, .disco, .selfie {
+      transform: rotate(0deg);
+   }
+
+   .sensorama{
+      display: block;
+   }
+
+   .listentome button{
+      background-color: #ca7c4c;
+      font-family: 'Lucida Console', monospace;
+      border-width: 0px;
+      padding: 4%;
+      margin: auto;
+      position: relative;
+      z-index: 2;
+   }
+
+   .widebutton{
+      display: none;
+   }
+
+   .narrowbutton{
+      display: block;
+      margin-top: -2%;
+   }
+
+   .narrowbutton button{
+      background-color: #b6cfb9 !important;
+   }
+   .archive, .documentation{
+      width: 100%;
+   }
+
+   .windowinstallation{
+      display: block
+   }
+
+}
+@media only screen and (max-width: 640px) {
+
+   .individualcolor, .historytidbit {
+      opacity: 80%;
+      position: relative;
+      width: 90%;
+      margin: auto;
+      background-image: url('../img/woodbackground.jpg');
+      box-shadow: 2px 2px 5px black;
+      padding-top: -20px;
+      margin-bottom: 320px;
+      margin: 100vh auto;
+   }
+
+   .inviteimage{
+   }
+
+   .inviteimage img{
+      padding-right: 20%;
+   }
+
+
+   .menu{
+      display: none;
+   }
+
+   a{
+      font-size: 0.7em;
+      line-height: 0.8em;
+   }
+
+   .realintro {
+   width: 100%;
+   margin: auto;
+   margin-top: -900px;
+   }
+
+   .entrysection, .playritual, .novatuskhutbody, .personalinteraction, .layerssection, .ttmparttwo, .mixingrealities{
+      width: 100%;
+   }
+
+
+   .novavideo{
+      width: 45%;
+   }
+
+   .wormholevideo{
+      width: 100%;
+   }
+
+   .wormholevideo video{
+      width: 90%;
+   }
+
+   .martianintro{
+      display: block !important;
+   }
+
+   .martiantext{
+      width: 100%;
+      transform: rotate(0deg);
+   }
+
+   .realintro, .unionsquareintro, .personalinteraction, .entrysection, .playritual, .novatuskhutbody, .layerssection, .ttmparttwo, .mixingrealities p{
+      padding: 0.6%;
+   }
+
+   .hoveringobjects{
+      width: 100%;
+   }
+
+   .objectcaption h3{
+      font-size: 0.8em;
+   }
+
+   .panoramastrip p{
+      padding: 7%;
+      margin-top: -5%;
+
+   }
+   .widevid{
+      display: none;
+   }
+
+   .narrowvid{
+      display: block;
+   }
+
+
+   .montagecaption {
+    margin: auto;
+
+   }
+
+   .montagecaption p{
+      text-align: center;
+   }
+
+   .panoramarow{
+      grid-template-columns: 1fr;
+   }
+
+   .velasmontage{
+      width: 100%;
+      border-radius: 20%;
+   }
+
+   .ursidebyside{
+      margin-top: 15%;
+   }
+
+   .fobpicnarrow{
+      display: block;
+   }
+
+   .fobcaption p{
+     margin: 3%;
+   }
+
+   .fobpicwide{
+      display: none;
+   }
+
+   .peanuts{
+      width: 90%;
+      margin: auto;
+      margin-bottom: -1%;
+   }
+
+
+   .martianintro{
+      display: grid;
+      grid-template-columns: 1.3fr 2fr;
+      transform: rotate(2deg)
+   }
+
+   .martiantext p{
+      font-size: 0.6em;
+   }
+
+   .timefreezy img{
+      width: 80%;
+   }
+   .brassrootsintro{
+      display: block;
+   }
+
+   .unionsquareintro{
+      display: block;
+   }
+   .insideimage img{
+      width: 100%;
+   }
+
+   .insideimage{
+      width: 90%;
+      margin: auto;
+      transform: rotate(0deg);
+   }
+
+   .soundtrack{
+      margin: auto;
+      margin-top: 1.5%;
+   }
+
+   .widereflection{
+      display: none;
+   }
+
+   .narrowreflection{
+      display: block;
+   }
+
+   .narrowobjects{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .pillsbody, .dinoeggsbody{
+      display: none;
+   }
+
+   .brdinteraction{
+      display: none;
+   }
+
+   .narrowbrd{
+      display: block;
+      margin: auto;
+   }
+
+   .narrowbrd img{
+      margin: auto;
+   }
+
+   .interviewees{
+      grid-gap: 2%;
+   }
+
+   .intervieweepic h2{
+      font-size: 0.9em;
+   }
+
+   .intervieweepic h3{
+      font-size: 0.75em;
+   }
+
+
+   .gallery{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .timelineincluded{
+      display: block;
+   }
+
+   .knightlab p{
+      text-align: center;
+   }
+
+   .brassrootsfilmstrip{
+      margin-top: 4%;
+   }
+
+   .brassrootsmovingimage{
+      margin-bottom: -100%;
+   }
+
+  /* .individualcolor{
+      width: 80%;
+      font-size: 1em;
+   }*/
+
+   .documentation{
+      display: block;
+   }
+
+   .whatwillyoufind{
+      margin-top: 4%;
+   }
+
+
+   .sensorama{
+      display: block;
+   }
+
+   .panoramacaption p{
+      font-size: 1.4em;
+   }
+
+   .hoveringcaption p{
+      color: white;
+      text-align: center;
+      font-size: 0.5em;
+      font-family: serif;
+   }
+
+   .textexplanation h2{
+      padding-top: 2%;
+   }
+
+   .porterpullquote{
+      display: block;
+   }
+
+   .porterpic{
+      width: 90%;
+      margin-top: 7%;
+      transform: rotate(0deg);
+   }
+
+   .portercaption p{
+      margin: 2%;
+   }
+
+   .workingimagecaption{
+      width: 90%;
+   }
+
+
+   .realintro p, .unionsquareintro p, .personalinteraction p, .entrysection p, .playritual p, .novatuskhutbody p, .layerssection p, .ttmparttwo p, .mixingrealities p{
+      padding: 1%;
+   }
+
+   .interviewees{
+      display: block;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+

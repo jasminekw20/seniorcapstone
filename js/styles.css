@@ -1,0 +1,759 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+/*   background-color: lightcyan;*/
+   background-image: linear-gradient(pink, lightyellow, cyan);
+   font-family: 'Lato', sans-serif;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+h1 {
+   text-align: center;
+   font-family: cursive;
+}
+h2 {
+   font-family: cursive;
+}
+
+body {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.left {
+  float: left;
+  padding-right: 20px;
+  margin-left: -40px;
+}
+
+.floatingpic {
+  width: 50%;
+}
+
+.floatingpic audio {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/*castle background*/
+.backdrop{
+   /*position: sticky;*/
+   top: 0px;
+   z-index: -1;
+}
+
+/*changing movie gallery*/
+.moviepics img {
+   position: sticky;
+   top: 0px;
+}
+.introduction {
+   background-image: linear-gradient(lightpink, peachpuff, lemonchiffon, palegreen, lightcyan);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.movietitle{
+   margin: auto;
+   border-radius: 3%;
+   width: 70%;
+   box-shadow: 2px 4px 12px mintcream;
+   position: relative;
+   /*left: 200%;*/
+}
+
+.movietitle h2{
+   text-align: center;
+   color: white;
+   font-size: 2em;
+}
+.slideinimage{
+   position: relative;
+   width: 50%;
+   margin: auto;
+   left: 200%;
+
+}
+.slideinimage p{
+   margin: auto;
+   font-size: 1.4em;
+   text-align: center;
+   color: blue;
+}
+.gallery{
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1%;
+   left: 200%;
+   padding: 2%;
+
+}
+.scenes img{
+   border-radius: 3%;
+}
+.title{
+   padding: 2%;
+   width: 70%;
+   background-image:linear-gradient(lightpink, orange, yellow, lightgreen, lightcyan);
+}
+.title h2{
+   color: black;
+}
+.sidetext p{
+   padding: 4%;
+   font-size: 1.5em;
+   font-family: cursive;
+}
+.rainboworder {
+   position: sticky;
+   top: 0px;
+   z-index: -1;
+   background-image: linear-gradient(lightpink, moccasin, lightyellow, palegreen, paleturquoise);
+   width: 100%;
+   padding: 1.3%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-gap: 2px;
+   box-shadow: 2px -5px 10px mintcream;
+   border-radius: 1%;
+}
+
+
+/*choose new movie */
+
+.newmovie{
+   background-image: linear-gradient(lightpink, plum);
+   width: 100%;
+   padding: 2%;
+   margin: auto;
+   margin-bottom: 2%;
+
+}
+.movieelements{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 2%;
+}
+.moviecollage{
+   margin-top: 2%;
+   position: relative;
+   left: 200%;
+}
+.colornewmovie{
+   position: absolute;
+   left: 28%;
+   top: 25%;
+   background-color: darkslateblue;
+   opacity: 0.8;
+   padding: 2%;
+   border-radius: 3%;
+   box-shadow: 3px 3px 5px lightpink;
+}
+.colornewmovie h1{
+   font-size: 3em;
+   color: white;
+}
+.choicecolor img{
+   border-radius: 20%;
+   box-shadow: 2px 2px 3px black;
+}
+.choicecolor{
+   width: 90%;
+   margin: auto;
+}
+.choice{
+   display: grid;
+   margin: 2%;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
+
+}
+.choice img{
+   border-radius: 20%;
+}
+.options{
+   width: 100%;
+   border-radius: 20%;
+   box-shadow: 2px 2px 3px black;
+}
+.eachaspect{
+   width: 100%;
+}
+.eachaspect h3{
+   font-family: cursive;
+   text-align: center;
+   font-size: 1.6em;
+   width: 80%;
+   background-image: linear-gradient(hotpink, aquamarine);
+   margin: auto;
+   margin-bottom: 4%;
+   border-radius: 8%;
+}
+
+
+/*How does color affect everything?*/
+.palettetitles{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: auto;
+   grid-gap: 3%;
+   width: 90%;
+}
+.palettetitles h2{
+   text-align: center;
+}
+.explanationtitle{
+   color: black;
+}
+.effects{
+   padding: 2%;
+   background-image: linear-gradient(lightcoral, lemonchiffon, mediumaquamarine, lightskyblue);
+   color: pink;
+}
+.bannerimage{
+   width: 60%;
+   margin: auto;
+   margin-bottom: 2%;
+   position: relative;
+   left: 200%
+}
+.titlereveal{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.title{
+   background-image: linear-gradient(lightpink, lemonchiffon, palegreen, lightblue);
+   width: 100%;
+   border-radius: 3%;
+}
+.exampleimages{
+   width: 100%;
+   margin: auto;
+   margin-top: 2%;
+   position: sticky;
+   top: 0px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 2%;
+}
+.eachimage{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   display: none;
+}
+
+.hoveringcaption{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   padding: 3%;
+   width: 100%;
+   height: 40%;
+   background-color: rgba(0,0,128,0.8);
+   display: none;
+}
+.hoveringcaption p{
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-size: 0.95em;
+   font-family: cursive;
+}
+.resetbutton{
+   margin-top: 5%;
+   margin-left: 40%;
+   position: relative;
+   font-family: cursive;
+   font-size: 1.2em;
+}
+.reset{
+   border-radius: 20%;
+   background-color: pink;
+   border-width: 0px;
+   align-content: center;
+
+}
+
+.smallimages{
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 2%;
+   margin: 5%;
+   width: 80%;
+}
+.places{
+   position: relative;
+}
+.smallimages img{
+   border-radius: 20%;
+}
+.bigimage{
+   width: 80%;
+   margin: 5%;
+}
+.bigimage img{
+   border-radius: 20%;
+}
+.significance{
+   width: 90%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 3%;
+   background-image: linear-gradient(pink, lightyellow, cyan);
+   overflow-x: hidden;
+}
+.explanationsexamples{
+   vertical-align: top;
+/*   margin: auto;*/
+   padding: 2%;
+   width: 100%;
+/*   background-color: aquamarine;*/
+}
+.explanationsexamples p{
+   font-size: 1.4em;
+   font-family: serif; 
+}
+.palettepics {
+  /* display: grid;
+   grid-template-columns: 1fr 1fr;*/
+   grid-gap: 15px;
+   position: relative;
+   vertical-align: top;
+   margin: auto;
+/*   border-left: 6px solid hotpink;*/
+   width: 50%;
+}
+
+.relationshippicture{
+   position: relative;
+   top: 0px;
+   margin: 20px;
+/*   left: 200%;*/
+   width: 100%;
+}
+
+.relationshippicture img{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+}
+.paletteexplanation {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   padding-top: 2%;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-bottom: 20%;
+   background-color: rgba(0,0,0,0.78);
+   margin: auto;
+   width: 100%;
+   height: 10%;
+   display: none;
+}
+.paletteexplanation p{
+   color: white;
+   width: 80%;
+   text-align: justify;
+   font-size: 0.7em;
+   
+}
+.palettepics{
+   position: relative;
+}
+.palettepics p{
+   width: 100%;
+}
+/*.turningred, .coco{
+   border: 3px solid blue;
+}
+*/.colorwheel{
+   top: 100px;
+   width: 30%;
+   padding: 2%;
+   margin: auto;
+/*   display: none;*/
+
+}
+.painting {
+   width: 4%;
+}
+.favoritesymbols h2{
+   padding-left: 2%;
+   padding: 2%;
+   text-align: center;
+   width: 100%;
+   font-size: 1.5em;
+   background-image: linear-gradient(lightpink, orange, lightyellow, lightgreen, cyan);
+}
+
+.meaning{
+/*   background-color: white;*/
+   width: 90%;
+   margin: auto;
+   display: none;
+}
+.meaning p{
+   font-size: 1.2em;
+   text-align: justify;
+/*   text-align: center;*/
+   font-family: cursive;
+}
+/*.rainboworder img {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+*/
+.palette {
+   padding: 2%;
+}
+
+
+/*color of the palette*/
+.symbols{
+/*   margin-bottom: 60%;*/
+}
+.symbols button{
+/*   border-radius: 50%;*/
+   width: 100px;
+   height: 100px;
+/*   height: 70px;*/
+ /*  width: 100%;
+   height: 180%;*/
+}
+.crimsonred{
+   position: relative;
+   background-color: #fc2300;
+   width: 100%;
+   height: 100%;
+/*   width: 100px;
+   height: 100px;
+   position: relative;*/
+}
+
+.funfacts{
+   position: absolute;
+   bottom: 20px;
+   left: 12px;
+   top: 245px;
+   padding: 4%;
+   background-color: rgba(245, 255, 250,0.6);
+   width: 96%;
+   height: 30%;
+   text-align: center;
+   color: white;
+   line-height: 1.4em;
+   display: none;
+}
+.bigcolor{
+   position: relative;
+}
+.bigcolor img{
+   position: relative;
+   width: 100%;
+   margin: auto;
+   padding: 2%;
+}
+.symbols img{
+   width: 100%;
+}
+.symbols{
+}
+
+
+/*coloringbook*/
+.paintbrush{
+   position: relative;
+   width: 6%;
+   margin-left: 2%;
+   left: 200%;
+   top: 0px;
+}
+.flipbook{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: auto;
+}
+.blankpage{
+   width: 100%; 
+   background-color: snow;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 0.5%;
+}
+.bookimage{
+   width: 100%;
+   position: relative;
+}
+.erase button{
+   background-color: aquamarine;
+   border-width: 0px;
+   padding: 2%;
+   border-radius: 3%;
+   margin: auto;
+   font-family: cursive;
+   font-size: 1.5em;
+   width: 100%;
+   padding: 2%;
+}
+.erase{
+   margin: auto;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   margin-left: 2%;
+   width: 30%;
+   border-radius: 3%;
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+}
+.justpalette{
+   width: 100%;
+   margin: auto;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   background-color: white;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.justpalette img{
+   width: 100%;
+   margin: auto;
+}
+.coloringbook{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1%;
+   margin-bottom: 2%;
+}
+.imagecolored{
+   position: relative;
+}
+.afterpaint{
+   position: absolute;
+   width: 100%;
+   bottom: 0px;
+   top: 0px;
+   left: 0px;
+   display: none;
+}
+.dippaint{
+   position: relative;
+   width: 100%;
+}
+.paintbrush{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+}
+
+/*animated headers*/
+.everywhere{
+   position: relative;
+   background-image: linear-gradient(pink, orange, yellow, lightgreen, cyan);
+   width: 100%;
+   margin: auto;
+   padding: 2%;
+   right: -2000px;
+   overflow-x: hidden;
+}
+.everywhere h3{
+   font-family: cursive;
+   font-size: 1.8em;
+   text-align: center;
+}
+
+/*.timetravelsection{
+   z-index: -0.5;
+   position: sticky;
+   width: 100%;
+   height: 100vh; 
+}*/
+/*.layeredhistories{
+   z-index: -0.5;
+   position: sticky;
+   width: 100%;
+   height: 100vh; 
+}*/
+
+
+/*.layeredbackground img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: relative;
+}*/
+.echoparkvid{
+   z-index: -0.5;
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   height: 100vh; 
+   z-index: -0.5;
+   opacity: 50%;
+}
+.timetravelphotos{
+   position: relative;
+   display: grid;
+   padding: 10%;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.timetravelphotos img{
+   width: 100%;
+}
+.travelcaption h2{
+   font-size: 4em;
+   text-align: center;
+   padding: 20%;
+}
+.travelcaption button{
+   margin: 20%;
+   align: center;
+   margin-top: 5%;
+   margin-left: 20%;
+   position: relative;
+   font-size: 1.2em;
+
+}
+
+.slidewrapper {
+  position: relative;
+}
+
+.slides {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  z-index: -1;
+}
+
+.bottomcredit {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  color: white;
+}
+
+
+/*coloring book*/
+.colored{
+   width: 30%;
+   margin-left: 10%;
+}
+/*pocahontas scrolling*/
+.panoramabackground{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   height: 100vh; 
+   z-index: -0.5;
+}
+.princessbackground{
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   height: 100vh; 
+   z-index: -0.5;
+}
+.princessbackground img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: relative;
+}
+.colorrrange{
+   opacity: 50%;
+}
+.individualcolor{
+   opacity: 70%;
+   position: relative;
+   width: 40%;
+   margin-left: 0%;
+   box-shadow: 2px 2px 5px black;
+/*   padding-top: 2%;*/
+/*   padding-bottom: 7%;*/
+}
+.individualcolor p{
+   font-family: 'Georgia,'cursive;
+   text-align: ;
+   font-size: 1.6em;
+   color: white;
+   width: 100%;
+   text-shadow: 2px 2px 5px black;
+   padding: 10%;
+}
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+   .
+   .gallery{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .colornewmovie{
+      position: absolute;
+   }
+   .colornewmovie h1{
+      font-size: 1.4em;
+   }
+   .resetbutton{
+      font-size: 1em;
+   }
+   .palettetitles{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .hoveringcaption p{
+      color: white;
+      text-align: center;
+      font-size: 0.5em;
+      font-family: serif;
+   }
+   .explanation p{
+      font-size: 0.85em;
+   }
+
+   .everywhere h3{
+      font-size: 0.9em;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
